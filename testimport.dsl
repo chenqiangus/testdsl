@@ -1,7 +1,7 @@
 
-            shellDeploymentNode = deploymentNode "Infrastructure view: pattern Azure PostgreSQL" {
-                infrastructureDeploymentNodesforPostfreSQL = deploymentNode "infra nodes for pattern postgreSQL" {
-                    infraPostgreSQLProduct = infrastructureNode "infra node of PostfreSQL CPF Product"
+            ${APP_COMPONENT_NAME}DeploymentNode = deploymentNode "Infrastructure view: pattern Azure PostgreSQL" {
+                infrastructureDeploymentNodesfor${APP_COMPONENT_NAME_ACRONYM} = deploymentNode "infra nodes for pattern postgreSQL" {
+                    infra${APP_COMPONENT_NAME_ACRONYM} = infrastructureNode "infra node of PostfreSQL CPF Product"
                 }
                     
             }
